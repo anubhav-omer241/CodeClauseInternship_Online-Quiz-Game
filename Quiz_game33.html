@@ -1,0 +1,69 @@
+<!-- Music HTML Page 2-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+
+<link href="Quiz_game.css" rel="stylesheet">
+<script src="Quiz_game.js"></script>
+
+</head>
+<body>
+
+<h1> Test your Music knowledge</h1>
+
+<form id="quiz33" name="quiz3">
+    
+    <p>"I'm Slim Shady, yes, I'm the real Shady
+        All you other Slim Shadys, are just imitating " , are lyrics from a hit song by which hip hop superstar?</p>
+    
+    <input type="radio" id="mc" name="QU11" value="Eminem">Eminem<br>
+    <input type="radio" id="mc" name="QU11" value="Dr. Dre">Dr.Dre<br>
+    <input type="radio" id="mc" name="QU11" value="2 Pac">2 Pac<br>
+    <div id="after_click">
+        <p id="msg16"></p>
+    </div>
+
+    <p> Which musician has his real name as Peter Gene Hernandez?</p>
+
+    <input type="radio" id="mc" name="QU22" value="Red One">Red One<br>
+    <input type="radio" id="mc" name="QU22" value=" Bruno Mars"> Bruno Mars<br>
+    <input type="radio" id="mc" name="QU22" value="Drake">Drake<br>
+     <input type="radio" id="mc" name="QU22" value="Snoop Dog">Snoop Dog<br>
+
+     <div id="after_click">
+        <p id="msg17"></p>
+    </div>
+
+    <p> Which female musician’s shaved head photo sold for $500,000 back in 2007?</p>
+
+    <input type="radio" id="mc" name="QU33" value="Nicki Minaj">Nicki Minaj<br>
+    <input type="radio" id="mc" name="QU33" value="Celine Dion">Celine Dion<br>
+    <input type="radio" id="mc" name="QU33" value="Britney Spears">Britney Spears<br>
+
+    <div id="after_click">
+        <p id="msg18"></p>
+    </div>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check_33();">
+
+</form>
+
+<div id="after_click">
+    <p id="msg"></p>
+<p id="correct_answers"></p>
+
+</div>
+<button id="button" onclick="myFunction()">Restart</button>
+
+<div id="after_click">
+    <p id="m"></p>
+</div>
+
+ <input type="submit" value=" Go to the next level " id="buttonlevel2" class="hidden" onclick="location.href='Quiz_game_page_index.html';">
+
+
+</body>
+</html>
