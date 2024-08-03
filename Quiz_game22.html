@@ -1,0 +1,71 @@
+<!-- Sport HTML Page 2-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+
+<link href="Quiz_game.css" rel="stylesheet">
+<script src="Quiz_game.js"></script>
+
+</head>
+<body>
+
+<h1> Test your sports knowledge</h1>
+
+<form id="quiz22" name="quiz2">
+    
+    <p>For which team did Michael Jordan spend most of his career playing ? </p>
+    
+    <input type="radio" id="mc" name="k11" value="Boston Celtics">Boston Celtics<br>
+    <input type="radio" id="mc" name="k11" value="Lakers">Lakers<br>
+    <input type="radio" id="mc" name="k11" value="Chicago Bulls">Chicago Bulls<br>
+    <input type="radio" id="mc" name="k11" value="Golden State Warriors">Golden State Warriors<br>
+
+    <div id="after_click">
+        <p id="msg13"></p>
+    </div>
+
+    <p>How many players are there on a baseball team ?  </p>
+
+    <input type="radio" id="mc" name="k22" value="7players">7 players<br>
+    <input type="radio" id="mc" name="k22" value="8players">8 players<br>
+    <input type="radio" id="mc" name="k22" value="9players">9 players<br>
+     <input type="radio" id="mc" name="k22" value="11players">11 players<br>
+
+     <div id="after_click">
+        <p id="msg14"></p>
+    </div>
+
+
+    <p>What is Muhammad Ali’s real name ?</p>
+
+    <input type="radio" id="mc" name="k33" value="Cassius Clay">Cassius Clay<br>
+    <input type="radio" id="mc" name="k33" value="Manny pacquiao">Manny pacquiao<br>
+    <input type="radio" id="mc" name="k33" value="tyson fury">tyson fury<br>
+    <div id="after_click">
+        <p id="msg15"></p>
+    </div>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check_22();">
+
+</form>
+
+<div id="after_click">
+    <p id="msg"></p>
+<p id="correct_answers"></p>
+</div>
+<button id="button" onclick="myFunction()">Restart</button>
+<br>
+<div id="after_click">
+    <p id="m"></p>
+</div>
+
+ <input type="submit" value=" Go to the next level " id="buttonlevel2" class="hidden" onclick="location.href='Quiz_game_page_index.html';">
+
+
+
+
+</body>
+</html>
