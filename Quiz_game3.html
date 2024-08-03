@@ -1,0 +1,68 @@
+<!-- Music HTML Page-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+
+<link href="Quiz_game.css" rel="stylesheet">
+<script src="Quiz_game.js"></script>
+
+</head>
+<body>
+
+<h1> Test your Music knowledge</h1>
+
+<form id="quiz3" name="quiz3">
+    
+    <p>what's the real name of 50 cent</p>
+    
+    <input type="radio" id="mc" name="QU1" value="Aubrey Drake Graham">Aubrey Drake Graham<br>
+    <input type="radio" id="mc" name="QU1" value="Curtis James Jackson">Curtis James Jackson<br>
+    <input type="radio" id="mc" name="QU1" value="Donald trump">Donald Trump<br>
+    <div id="after_click">
+        <p id="msg1"></p>
+    </div>
+
+    <p> who is the singer of dance monkey</p>
+
+    <input type="radio" id="mc" name="QU2" value="Oum kalthoum">Oum kalthoum<br>
+    <input type="radio" id="mc" name="QU2" value="Madonna">Madonna<br>
+    <input type="radio" id="mc" name="QU2" value="Tones and I">Tones and I<br>
+     <input type="radio" id="mc" name="QU2" value="Goerge wassouf">Goerge wassouf<br>
+
+     <div id="after_click">
+        <p id="msg2"></p>
+    </div>
+
+    <p>Which country is Ya Lili singer Balti from?</p>
+
+    <input type="radio" id="mc" name="QU3" value="Tunisia">Tunisia<br>
+    <input type="radio" id="mc" name="QU3" value="Italy">Italy<br>
+    <input type="radio" id="mc" name="QU3" value="Algeria">Algeria<br>
+
+    <div id="after_click">
+        <p id="msg3"></p>
+    </div>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check_3();">
+</form>
+
+
+<div id="after_click">
+    <p id="msg"></p>
+<p id="correct_answers"></p>
+
+</div>
+<button id="button" onclick="myFunction()">Restart</button>
+
+<div id="after_click">
+    <p id="m"></p>
+</div>
+
+ <input type="submit" value=" Go to the next level " id="buttonlevel2" class="hidden" onclick="location.href='Quiz_game33.html';">
+
+
+</body>
+</html>
